@@ -1,0 +1,178 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap");
+/* font --ends */
+/* color */
+:root{
+    --main-color: #ebeae9;
+    --primary-color: #312e2e;
+} 
+/* resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--main-color);
+    /* margin: 1rem; */
+        border: 20px solid rgb(144, 195, 200);
+
+}
+html{
+    font-family: sans-serif ,'Open Sans';
+}
+/* nav starts */
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+nav ul{
+    margin-left: 4rem;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+    /*burger menu  */
+nav .burger{
+    margin-right: 4rem;
+    cursor: pointer;
+}
+nav .burger i {
+    font-size: 22px;
+}
+section{
+    font-size: 18px;
+    font-family: "Rennie-Bean","Open-Sans";
+}
+/* nav ends */
+
+ /* header starts */
+ header{
+    margin: 6rem;
+ }
+ .main-headings{
+    width: 50%;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.primary-headings{
+    width: 50%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 35px;
+}
+.bg-grey{
+    background: rgb(67, 67, 67);
+    color: white;
+    padding: 2px 15px;
+    font-weight: bold;
+}
+/* heaer -ends */
+/* main start */
+main{
+    margin: 0 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*  border: 2px solid black; */
+}
+main .img{
+    width: 40%;
+    margin: 10px;
+    object-position: center;
+    object-fit: cover;
+}
+/* section-3 start */
+.section-three{
+    margin: 5rem;
+}
+.main-headings{
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+.section-three .primary-headings{
+    margin-bottom: 10rem;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section-three .items h1{
+    font-size: 2rem;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center;
+    color: rgb(67, 67, 67);
+}
+.section-three img {
+    width: 400px;
+    height: 500px;
+    margin: 50px;
+    object-position: center;
+    object-fit: contain;
+}
+/* secrion -3 ends */
+
+/* Footer -starts */
+
+footer{
+    margin: 20px 0px 0px 0px;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: rgb(144, 195, 200);
+}
+.footer-logo h1{
+    font-size: 4rem;
+    font-family: "Open Sans";
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+.footer-logo p{
+    max-width: 400px;
+    font-family: sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+}
+footer .foot-company{
+    font-family: "open Sans";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .foot-company .item{
+    margin-right: 40px;
+    font-family: sans-serif;
+}
+footer .foot-company .item h1{
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    font-family: "Open Sans";
+}
+footer .foot-company .item ul{
+    margin-right: 40px;
+    line-height: 30px;
+    /* font-family: sans-serif; */
+}
+footer .foot-company .item ul li{
+    list-style: none;
+    font-family: sans-serif;
+}
+
+/* Footer -Ends */
